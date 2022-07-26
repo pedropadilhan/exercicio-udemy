@@ -10,13 +10,13 @@ public class Empregado {
 		return salarioBruto - imposto;
 	}
 	
-	// void pq não retorna nad
+	// void pq nï¿½o retorna nad
 	// o metodo recebe o parametro porcentagem para utilazar na conta
 	public void aumentarSalario(double porcentagem) {
 	     salarioBruto += salarioBruto * porcentagem / 100.0;
 	}
 	
-	//toString cria uma representação string do objeto
+	//toString cria uma representaï¿½ï¿½o string do objeto que pode ser chamado na main economizando espaÃ§o de codigo
 	public String toString() {
 		return nome + ", $ " + String.format("%.2f", salarioLiquido());
 		}
