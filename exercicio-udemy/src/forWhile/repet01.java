@@ -1,3 +1,4 @@
+package forWhile;
 import java.util.Scanner;
 
 public class repet01 {
